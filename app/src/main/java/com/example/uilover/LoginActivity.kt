@@ -12,7 +12,7 @@ class LoginActivity : AppCompatActivity() {
     }
 
     fun login(view: View) {
-        val intent = Intent(this,LoginActivity::class.java)
+        val intent = Intent(this,ProfileActivity::class.java)
         startActivity(intent)
     }
 }
